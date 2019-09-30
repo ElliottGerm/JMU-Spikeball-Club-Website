@@ -1,0 +1,22 @@
+.navbar {
+    height: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+}
+
+.background {
+    /* background-color: #e4cf30; */
+    background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8, 0.393));
+}
+
+.container-color {
+    background-color: #090909;
+    box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
+    margin-bottom: 0px;
+}
+
+.navbar>div>a {
+    color: white;
+}
