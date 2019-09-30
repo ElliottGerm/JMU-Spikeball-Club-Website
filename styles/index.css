@@ -8,6 +8,11 @@
 
 .navbar>div>a {
     color: white;
+    text-decoration: none;
+}
+
+.navbar>div>a:hover {
+    color: rgba(255, 255, 255, 0.557);
 }
 
 .header-logo {
@@ -22,9 +27,11 @@
     padding-bottom: 20px;
 }
 
+
+/* change to background color */
+
 .background {
-    background-color: #e4cf30;
-    background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8, 0.393));
+    background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
 }
 
 .container-color {

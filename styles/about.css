@@ -29,12 +29,29 @@
     margin-bottom: 0px;
 }
 
-.row>iFrame {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.about-description {
+    padding: 10px 50px 10px 50px;
+    color: rgba(255, 255, 255, 0.557);
+}
+
+h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.557);
+    text-transform: uppercase;
 }
 
 
 /* .container {
     height: 100vh;
 } */
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.907);
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.card-spacing {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
