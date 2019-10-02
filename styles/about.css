@@ -27,6 +27,7 @@
     background-color: #090909;
     box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
     margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 .about-description {
@@ -41,17 +42,26 @@ h1 {
     text-transform: uppercase;
 }
 
-
-/* .container {
-    height: 100vh;
-} */
-
 .card-body {
     background-color: rgba(0, 0, 0, 0.907);
     color: rgba(255, 255, 255, 0.756);
 }
 
-.card-spacing {
-    padding-top: 15px;
-    padding-bottom: 10px;
+.card-img-top {
+    max-height: 335px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.top-buffer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.about-buffer {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }

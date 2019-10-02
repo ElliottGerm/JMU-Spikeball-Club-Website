@@ -1,20 +1,52 @@
+/* body {
+    color: white;
+} */
+
 .navbar {
-    /* height: 100px;
-    margin-bottom: 20px;
-    color: white; */
+    color: white;
     font-family: 'Squada One', cursive;
     /* font-size: 30px; */
 }
 
 div>h1 {
-    margin: 30px;
+    margin-top: 30px;
+    /* color: white; */
+    font-family: 'Squada One', cursive;
 }
 
 .container-color {
     background-color: #090909;
     box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    /* color: white; */
+    color: rgba(255, 255, 255, 0.557);
 }
 
 .background {
     background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
+}
+
+.nav-item {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-item:hover {
+    color: rgba(255, 255, 255, 0.557);
+}
+
+p {
+    margin: 10px 30px 10px 30px;
+    padding-right: 10px 30px 10px 30px;
+}
+
+p>a {
+    color: rgba(205, 205, 8);
+}
+
+p>a:hover {
+    color: rgb(66, 31, 109);
 }

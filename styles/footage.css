@@ -19,6 +19,9 @@
     padding-top: 20px;
 }
 
+
+/* navbar stuff ends here */
+
 .background {
     background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
 }
@@ -27,6 +30,7 @@
     background-color: #090909;
     box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
     margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 .row>iFrame {
@@ -34,7 +38,7 @@
     padding-bottom: 30px;
 }
 
-
-/* .container {
-    height: 100vh;
-} */
+h1 {
+    color: rgba(255, 255, 255, 0.557);
+    font-family: 'Squada One', cursive;
+}
