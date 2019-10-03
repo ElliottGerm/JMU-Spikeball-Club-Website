@@ -65,3 +65,22 @@ ul {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+
+/* For Madison Union link */
+
+p>a {
+    color: rgb(92, 41, 155);
+}
+
+
+/* For Madison Union link */
+
+p>a:hover {
+    color: rgb(92, 41, 155);
+}
+
+
+/* .card>img {
+    object-fit: cover;
+} */
