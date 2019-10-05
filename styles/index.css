@@ -1,9 +1,6 @@
 .navbar {
-    height: 100px;
-    margin-bottom: 20px;
     color: white;
     font-family: 'Squada One', cursive;
-    font-size: 30px;
 }
 
 .navbar>div>a {
@@ -15,15 +12,20 @@
     color: rgba(255, 255, 255, 0.557);
 }
 
-.header-logo {
-    padding-top: 20px;
+.nav-item {
+    font-size: 35px;
+    color: white;
+}
+
+.navbar-collapse {
+    text-align: center;
 }
 
 .title {
     color: rgba(255, 255, 255, 0.557);
     text-align: center;
     font-family: 'Squada One', cursive;
-    font-size: 60px;
+    font-size: 3rem;
     padding-bottom: 20px;
 }
 

@@ -1,9 +1,6 @@
 .navbar {
-    height: 100px;
-    margin-bottom: 20px;
     color: white;
     font-family: 'Squada One', cursive;
-    font-size: 30px;
 }
 
 .navbar>div>a {
@@ -15,9 +12,17 @@
     color: rgba(86, 77, 96);
 }
 
-.header-logo {
-    padding-top: 20px;
+.nav-item {
+    font-size: 35px;
+    color: white;
 }
+
+.navbar-collapse {
+    text-align: center;
+}
+
+
+/* navbar stuff ends here */
 
 .background {
     background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
@@ -79,8 +84,3 @@ p>a {
 p>a:hover {
     color: rgb(92, 41, 155);
 }
-
-
-/* .card>img {
-    object-fit: cover;
-} */

@@ -1,61 +1,41 @@
-/* body {
-    color: white;
-} */
-
-.navbar {
-    color: white;
-    font-family: 'Squada One', cursive;
-    /* font-size: 30px; */
-}
-
-div>h1 {
-    margin-top: 30px;
-    /* color: white; */
-    font-family: 'Squada One', cursive;
-}
-
-.container-color {
-    background-color: #090909;
-    box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
-    margin-bottom: 0px;
-    padding-bottom: 20px;
-    /* color: white; */
-    color: rgba(255, 255, 255, 0.557);
-}
-
-.background {
-    background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
-}
-
-.nav-item {
-    font-size: 35px;
-    /* margin-right: 10px;
-    margin-left: 10px; */
-    color: white;
-}
-
-.nav-item:hover {
-    color: rgba(255, 255, 255, 0.557);
-}
-
-p {
-    margin: 10px 30px 10px 30px;
-    padding-right: 10px 30px 10px 30px;
-}
-
-p>a {
-    color: rgba(205, 205, 8);
-}
-
-p>a:hover {
-    color: rgb(66, 31, 109);
-}
-
-
-/* .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255, 102, 203);
-} */
+    .navbar {
+        color: white;
+        font-family: 'Squada One', cursive;
+    }
+    
+    div>h1 {
+        font-family: 'Squada One', cursive;
+    }
+    
+    .container-color {
+        background-color: #090909;
+        box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        color: rgba(255, 255, 255, 0.557);
+    }
+    
+    .background {
+        background-image: linear-gradient(to bottom, rgb(66, 31, 109) 60%, rgba(205, 205, 8));
+    }
+    
+    .nav-item {
+        font-size: 35px;
+        color: white;
+    }
+    
+    .nav-item:hover {
+        color: rgba(255, 255, 255, 0.557);
+    }
+    
+    p>a {
+        color: rgba(205, 205, 8);
+    }
+    
+    p>a:hover {
+        color: rgb(66, 31, 109);
+    }
+    
+    .navbar-collapse {
+        text-align: center;
+    }
