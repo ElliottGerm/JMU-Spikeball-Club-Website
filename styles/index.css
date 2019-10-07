@@ -8,12 +8,13 @@
     text-decoration: none;
 }
 
-.navbar>div>a:hover {
+
+/* .navbar>div>a:hover {
     color: rgba(255, 255, 255, 0.557);
-}
+} */
 
 .nav-item {
-    font-size: 35px;
+    font-size: 1.6em;
     color: white;
 }
 
@@ -22,10 +23,10 @@
 }
 
 .title {
-    color: rgba(255, 255, 255, 0.557);
+    color: white;
     text-align: center;
     font-family: 'Squada One', cursive;
-    font-size: 3rem;
+    font-size: 2.7em;
     padding-bottom: 20px;
 }
 
@@ -38,32 +39,14 @@
 
 .container-color {
     background-color: #090909;
-    box-shadow: 3px 5px 3px 3px rgb(31, 31, 31);
 }
 
 .carousel {
     margin-bottom: 20px;
 }
 
-.card-body {
-    background-color: rgba(0, 0, 0, 0.907);
-    color: rgba(255, 255, 255, 0.756);
-}
-
-.card-spacing {
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
 .social-icons>a {
-    padding: 10px;
     cursor: pointer;
-}
-
-.social-icons>p {
-    color: rgba(255, 255, 255, 0.756);
-    margin-left: 20px;
-    padding-top: 15px;
 }
 
 .social-icons>a:hover {
@@ -75,6 +58,7 @@
 ul {
     list-style: none;
     padding-left: 0;
+    color: white;
 }
 
 .card-img-top {

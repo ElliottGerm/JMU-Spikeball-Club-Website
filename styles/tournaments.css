@@ -4,7 +4,9 @@
     }
     
     div>h1 {
-        font-family: 'Squada One', cursive;
+        /* font-family: 'Squada Ones', cursive; */
+        font-size: 2.7em;
+        color: white;
     }
     
     .container-color {
@@ -13,6 +15,7 @@
         margin-bottom: 0px;
         padding-bottom: 20px;
         color: rgba(255, 255, 255, 0.557);
+        /* color: white; */
     }
     
     .background {
@@ -20,13 +23,12 @@
     }
     
     .nav-item {
-        font-size: 35px;
+        font-size: 1.6em;
         color: white;
     }
-    
-    .nav-item:hover {
+    /* .nav-item:hover {
         color: rgba(255, 255, 255, 0.557);
-    }
+    } */
     
     p>a {
         color: rgba(205, 205, 8);
@@ -38,4 +40,20 @@
     
     .navbar-collapse {
         text-align: center;
+    }
+    
+    .social-icons>a {
+        cursor: pointer;
+    }
+    
+    .social-icons>a:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    ul {
+        list-style: none;
+        padding-left: 0;
+        color: white;
     }
